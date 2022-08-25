@@ -8,11 +8,16 @@ a:link, a:visited {
     color: #e3e3ff;
     text-decoration: none;
 }
-a:hover, a:active {
+a:hover, a:active, a.footer-link:link, a.footer-link:visited {
     color: #ababff;
     text-decoration: none;
 }
+a.footer-link:hover, a.footer-link:visited {
+    color: #6c70e0;
+    text-decoration: none;
+}
 .title {
+    font-weight: bold;
     font-size: 40px;
     margin-bottom: 30px;
     color: #e3e3ff;
@@ -79,7 +84,7 @@ nav {
 #command-content {
     min-width: 400px;
     max-width: 65%;
-    height: 100%;
+    min-height: 420px;
     top: 70px;
     bottom: 30px;
     position: relative;
@@ -113,4 +118,47 @@ nav {
     position: relative;
     bottom: -200px;
     background-color: #050636;
+}
+#footer-content {
+    display: flex;
+    position: relative;
+    margin: auto;
+    width: 50%;
+}
+.footer-icon {
+    padding-top: 50px;
+    position: relative;
+    display: inline-block;
+}
+#footer-info {
+    margin-top: 65px;
+    margin-left: 15px;
+    position: relative;
+    display: inline-block;
+}
+#footer-links {
+    margin-left: auto;
+    margin-top: 75px;
+    margin-right: 0px;
+    position: relative;
+    display: block;
+    font-size: 18px;
+    color: #ababff;
+}
+.footer-link {
+    position: relative;
+    display: block;
+}
+.footer-name {
+    font-weight: bold;
+    font-size: 28px;
+    color: #e3e3ff;
+    position: relative;
+    display: block;
+}
+.footer-copyright {
+    font-size: 18px;
+    color: #ababff;
+    position: relative;
+    display: block;
 }
