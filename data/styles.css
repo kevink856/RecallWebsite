@@ -12,7 +12,7 @@ a:hover, a:active, a.footer-link:link, a.footer-link:visited {
     color: #ababff;
     text-decoration: none;
 }
-a.footer-link:hover, a.footer-link:visited {
+a.footer-link:hover, a.footer-link:active {
     color: #6c70e0;
     text-decoration: none;
 }
