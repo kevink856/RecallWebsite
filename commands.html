@@ -4,6 +4,7 @@
 <head>
     <title>Recall</title>
     <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon.png">
     <link rel="stylesheet" type="text/css" href="./data/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
@@ -34,7 +35,41 @@
         </div>
     </nav>
 
-    <div style="display: none">https://discord.com/api/oauth2/authorize?client_id=995910893667893298&permissions=8&scope=bot</div>
+    <div id="command-content">
+        <div class="title"><strong>Commands</strong></div>
+        <div id="search-content">
+            <img class="search-icon" src="./images/search-icon.svg">
+            <input type="text" id="input" class="searchbar" onkeyup="searchCommands()" placeholder="Search for commands...">
+        </div>
+        <div class="commands">
+            <div class="command-name">help</div>
+            <div class="command-desc">Get directed to this website for a list of available commands</div>
+        </div>
+        <div class="commands">
+            <div class="command-name">prefix</div>
+            <div class="command-desc">Display the current prefix used for all commands on this server</div>
+        </div>
+        <div class="commands">
+            <div class="command-name">prefix <i>[prefix]</i></div>
+            <div class="command-desc">Change the prefix for all commands on this server to the <i>[prefix]</i></div>
+        </div>
+        <div class="commands">
+            <div class="command-name">history</div>
+            <div class="command-desc">Display the top 15 most typed words in the server</div>
+        </div>
+        <div class="commands">
+            <div class="command-name">history <i>[user]</i></div>
+            <div class="command-desc">Display the top 15 most typed words by the <i>[user]</i></div>
+        </div>
+        <div class="commands">
+            <div class="command-name">history <i>[user]</i> <i>[word]</i></div>
+            <div class="command-desc">Display the amount of times the <i>[user]</i> has said the <i>[word]</i></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        
+    </div>
 
 </body>
 
