@@ -1,4 +1,48 @@
 body {
-    background-color:seashell;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #04103d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:link, a:visited {
+    color: #e3e3ff;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #ababff;
+    text-decoration: none;
+}
+nav {
+    min-width: 400px;
+    max-width: 60%;
+    padding: 20px;
+    align-self: center;
+    border-radius: 20px;
+    background-color: #0a1d66;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+.nav-icon {
+    width: auto;
+    position: relative;
+    left: 10px;
+    text-align: left;
+    display: inline-block;
+}
+.nav-item {
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    margin-left: 8px;
+    margin-right: 8px;
+    left: 20px;
+    bottom: 14px;
+    display: inline-block;
+}
+.nav-invite {
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    right: 30px;
+    bottom: 34px;
+    display: inline-block;
 }
